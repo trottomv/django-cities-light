@@ -110,7 +110,7 @@ COUNTRY_SOURCES = getattr(settings, 'CITIES_LIGHT_COUNTRY_SOURCES',
 REGION_SOURCES = getattr(settings, 'CITIES_LIGHT_REGION_SOURCES',
     ['http://download.geonames.org/export/dump/admin1CodesASCII.txt'])
 CITY_SOURCES = getattr(settings, 'CITIES_LIGHT_CITY_SOURCES',
-    ['http://download.geonames.org/export/dump/cities15000.zip'])
+    ['http://download.geonames.org/export/dump/cities1000.zip'])
 TRANSLATION_SOURCES = getattr(settings, 'CITIES_LIGHT_TRANSLATION_SOURCES',
     ['http://download.geonames.org/export/dump/alternateNames.zip'])
 TRANSLATION_LANGUAGES = getattr(settings, 'CITIES_LIGHT_TRANSLATION_LANGUAGES',
